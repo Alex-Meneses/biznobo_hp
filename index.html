@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biznobo Homepage</title>
+    <link rel='icon' href='assets/img/biznobo_favicon.png' type='image/png' />
+    <!-- Heap Analytics Code -->
+    <script type="text/javascript">
+        window.heap = window.heap || [], heap.load = function(e, t) {
+            window.heap.appid = e, window.heap.config = t = t || {};
+            var r = t.forceSSL || "https:" === document.location.protocol,
+                a = document.createElement("script");
+            a.type = "text/javascript", a.async = !0, a.src = (r ? "https:" : "http:") + "//cdn.heapanalytics.com/js/heap-" + e + ".js";
+            var n = document.getElementsByTagName("script")[0];
+            n.parentNode.insertBefore(a, n);
+            for (var o = function(e) {
+                    return function() {
+                        heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+                    }
+                }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], c = 0; c < p.length; c++) heap[p[c]] = o(p[c])
+        };
+        heap.load("2186356022");
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1133892326640249');
+        fbq('track', "PageView");
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1133892326640249&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="z-depth-1">
+            <div class="nav-wrapper nav-styling">
+                <a href="/" class="brand-logo"><img class="nav_brand_logo" src="assets/img/biznobo_logo_small.jpg" alt="biznobo-nav-logo" /></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons icon-gray">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a class="waves-effect btn orange" href="https://www.biznobo.com/signup">Sign Up</a></li>
+                </ul>
+                <!--/right hide-on-med-and-down -->
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="https://www.biznobo.com/login">Login</a></li>
+                    <li><a class="waves-effect btn orange" href="https://www.biznobo.com/signup">Sign Up</a></li>
+                </ul>
+                <!--/side-nav-->
+            </div>
+            <!--/nav-wrapper-->
+        </nav>
+        <!--/nav-->
+    </div>
+    <!--/navbar-fixed-->
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <div class="header row">
+                <h4 class="center-align col s12">Bring your marketing tools together in one place</h4>
+                <h6 class="center-align col s10 push-s1">Connect your email service provider, blog, landing pages, and payment processor to feel like one tool. Without having to hire a developer!</h6>
+                <img class="responsive-img col s10 offset-s1 header_graphic" src="assets/img/header_graphic.png" alt="Other tools connecting to Biznobo" />
+                <a id="header-btn" class="waves-effect waves-light btn-large col l2 s8 offset-l5 offset-s2 orange" href="https://www.biznobo.com/signup">Get Started!</a>
+                <h6 class="col s12 center-align"><span>Limited Offer:</span> Biznobo(beta) users can sign up for free.</h6>
+            </div>
+            <!--/header-->
+        </div>
+        <!--/container-->
+    </div>
+    <!--/section no-pad-bot-->
+    <div class="container-fluid">
+        <div class="integration-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h5 class="center-align">Integrations</h5>
+                    </div>
+                    <div id="integration-logos" class="row">
+                        <div class="integration-1 col s4"><img class="responsive-img i-logo-size" src="assets/img/aweber_logo_edited.svg" alt="aweber logo"></div>
+                        <div class="integration-2 col s4"><img class="responsive-img i-logo-size" src="assets/img/mailchimp_logo_edited.svg" alt="mailchimp logo"></div>
+                        <div class="integration-3 col s4"><img class="responsive-img i-logo-size" src="assets/img/getresponse_logo_edited.png" alt="getresponse logo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row section-1">
+                <div class="col l6 s12">
+                    <img class="responsive-img" src="assets/img/biznobo_ui_laptop.png" alt="picture of the biznobo user interface in a laptop">
+                </div>
+                <div class="col l6 s12">
+                    <h4 class="left-align col l12">Build your funnels visually for all your Email Service Providers</h4>
+                    <p class="left-align col l12">Farm-to-table franzen messenger bag, letterpress actually scenester keytar yuccie try-hard slow-carb vinyl before they sold out.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="section-2-bg">
+                <div class="container">
+                    <div class="row section-2">
+                        <div class="col l6 s12">
+                            <h4 class="left-align col l12">Get insights on your customer journeys.</h4>
+                            <p class="left-align col l12">Take the guess work out of what's working. See which customer journey's on converting best for your business. </p>
+                            <a id="section-2-btn" class="waves-effect btn orange col l4 s12" href="https://www.biznobo.com/signup">Sign Up</a>
+                        </div>
+                        <div class="col l6 s12">
+                            <img id="bars-chart-img" class="responsive-img" src="assets/img/bars-chart-analysis.svg" alt="picture of the biznobo user interface in a laptop">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row section-3">
+                <div class="col l12">
+                    <h4 class="center-align"></h4>
+                </div>
+                <div class="col l4 s4">
+                    <img class="responsive-img img-1" src="assets/img/exact-touchid-logo.png" alt="" />
+                    <p class="center promo-caption">Fingerprint ID </p>
+                    <p class="light center">
+                        Biznobo allows you to track your subscribers no matter if they clear their cookies or view your site on a private window with fingerprint ID.
+                    </p>
+                </div>
+                <div class="col l4 s4">
+                    <img class="responsive-img img-2" src="assets/img/shuffle.svg" alt="" />
+                    <h6 class="center promo-caption">Track and Trigger events </h6>
+                    <p class="light center">
+                        Getting your marketing tools to work together shouldn't be this hard. With Biznobo its as easy as enter your login and you're done.
+                    </p>
+                </div>
+                <div class="col l4 s4">
+                    <img class="responsive-img img-3" src="assets/img/chat.svg" alt="" />
+                    <h6 class="center promo-caption">Live chat support</h6>
+                    <p class="light center">
+                        We will be there every step of the way on growing your business. Whether you need help setting up your account or you want feedback on your funnel for you business. Someone from the team will be happy to help :)
+                    </p>
+                </div>
+                <a id="section-3-btn" class="waves-effect waves-light btn-large col l4 s8 offset-l4 offset-s2 blue" href="https://www.biznobo.com/signup">Get Started!</a>
+            </div>
+        </div>
+        <footer class="page-footer blue-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">We are in BETA!</h5>
+                        <p class="grey-text text-lighten-4">If you have yous still have questions click the live chat bubble on the right hand side to chat with us!</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Company</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://www.biznobo.com/login">Login</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://www.biznobo.com/signup">Sign Up</a></li>
+                            <br>
+                            <li><a href="https://twitter.com/Biznobo" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @Biznobo</a>
+                                <script>
+                                    ! function(d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[0],
+                                            p = /^http:/.test(d.location) ? 'http' : 'https';
+                                        if (!d.getElementById(id)) {
+                                            js = d.createElement(s);
+                                            js.id = id;
+                                            js.src = p + '://platform.twitter.com/widgets.js';
+                                            fjs.parentNode.insertBefore(js, fjs);
+                                        }
+                                    }(document, 'script', 'twitter-wjs');
+                                </script>
+                            </li>
+                            <li><iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2FBiznobo-196327710513570%2F%3Ffref%3Dts&width=570&height=21&layout=button_count&show_faces=true&appId" width="570" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2015-2016 Biznobo
+                </div>
+            </div>
+        </footer>
+
+
+
+
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+        <!-- User JavaScript -->
+        <script type="text/javascript" src="js/jQuery.js"></script>
+        <!-- Intercom Script -->
+        <script>
+            window.intercomSettings = {
+                app_id: "iuq40fz1"
+            };
+        </script>
+        <script>
+            (function() {
+                var w = window;
+                var ic = w.Intercom;
+                if (typeof ic === "function") {
+                    ic('reattach_activator');
+                    ic('update', intercomSettings);
+                } else {
+                    var d = document;
+                    var i = function() {
+                        i.c(arguments)
+                    };
+                    i.q = [];
+                    i.c = function(args) {
+                        i.q.push(args)
+                    };
+                    w.Intercom = i;
+
+                    function l() {
+                        var s = d.createElement('script');
+                        s.type = 'text/javascript';
+                        s.async = true;
+                        s.src = 'https://widget.intercom.io/widget/iuq40fz1';
+                        var x = d.getElementsByTagName('script')[0];
+                        x.parentNode.insertBefore(s, x);
+                    }
+                    if (w.attachEvent) {
+                        w.attachEvent('onload', l);
+                    } else {
+                        w.addEventListener('load', l, false);
+                    }
+                }
+            })()
+        </script>
+        <!-- Facebook Tracking Pixel -->
+
+</body>
+
+</html>
